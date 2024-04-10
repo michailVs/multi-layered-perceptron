@@ -1,0 +1,40 @@
+*,** {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    padding: 0;
+    margin: 0;
+}
+.container {
+    width: 100vw;
+    height: 100svh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #423d3d;
+}
+
+.text {
+    display: flex;
+    color: white;
+}
+.cont {
+    display: flex;
+    width: 500px;
+    height: 70px;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+.train {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.train_num {
+    margin-bottom: 10px;
+}

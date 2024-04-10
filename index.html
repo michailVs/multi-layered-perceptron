@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>multi-layered perceptron</title>
+</head>
+<body>
+    <div class="container">
+        <div class="cont">
+            <button class="train">train xN</button>
+            <div class="inputs">
+                <input
+                    type="number"
+                    class="train_num"
+                    placeholder="Пример: 1000 - Default"
+                >
+                <input
+                    type="number"
+                    class="quality"
+                    placeholder="Пример: 0,1 - Default"
+                >
+            </div>
+            <button class="refresh">refresh</button>
+            <p class="text">X position: N, Y position: N</p>
+        </div>
+        <canvas class="canvas"></canvas>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
